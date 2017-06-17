@@ -2,7 +2,7 @@
 require "secure/session.inc.php";
 require "../inc/lib.inc.php";
 require "../inc/db.inc.php";
-date_default_timezone_set('UTC');
+date_default_timezone_set('Europe/Kiev');
 ?>
 <html>
 <head>
@@ -30,7 +30,8 @@ date_default_timezone_set('UTC');
                         <h3 class="panel-title">Email: <?=$order['email']?></h3>
                         <h3 class="panel-title">Телефон: <?=$order['phone']?></h3>
                         <h3 class="panel-title">Адрес доставки: <?=$order['address']?></h3>
-                        <h3 class="panel-title">Дата размещения заказа: <?=date('d-m-Y H:i:s', $order['dt'])?></h3>
+                        <h3 class="panel-title">Дата размещения заказа: <?=date('d-m-Y H:i:s', $order['dt']*1)?></h3>
+                        <br/>
                     </div>
                     <div class="col-sm-12">
                         <div class="alert alert-danger alert-dismissable fade in" style="display: none;"
@@ -47,7 +48,6 @@ date_default_timezone_set('UTC');
                                 <th>Год издания</th>
                                 <th>Цена</th>
                                 <th>Количество</th>
-                                <th>Удалить</th>
                             </tr>
                             <?php
                             $goods = $order['goods'];
@@ -68,7 +68,6 @@ date_default_timezone_set('UTC');
                                     <td><?= $item['pubyear']; ?></td>
                                     <td><?= $item['price']; ?></td>
                                     <td><?= $item['quantity']; ?></td>
-                                    <td><a href="delete_from_basket.php?id=<?= $item['id']; ?>">Удалить</a></td>
                                 </tr>
                                 <?php
                                 $i++;
@@ -77,6 +76,7 @@ date_default_timezone_set('UTC');
                             ?>
                         </table>
                         <h4>Всего товаров на сумму: <?= $sum ?> грн.</h4>
+                        <hr>
                     </div>
                     <?php
                 }
