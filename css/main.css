@@ -8,9 +8,14 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background:;
+  background: white;
   position: relative;
-  font-weight:400px;
+  font-weight: 400;
+}
+
+ul.sub-menu.divider {
+  font-color: white;
+  font-size: 16px;
 }
 
 ul li {
@@ -904,7 +909,7 @@ h2.title {
   transition: height 500ms ease 0s;
   width: 100%;
   display: block;
-  opacity:;
+  opacity: 0.01;
 }
 
 .single-products:hover .product-overlay {
@@ -2146,7 +2151,6 @@ h2.title {
 
 .rating-area {
   border: 1px solid #F7F7F0;
-  direction: block;
   overflow: hidden;
 }
 

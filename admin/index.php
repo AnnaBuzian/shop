@@ -53,7 +53,7 @@
                         <ul class="nav navbar-nav">
                             <li><a href="../basket.php"><i class="fa fa-shopping-cart"></i> Корзина</a></li>
                             <li><a href="#"><i class="fa fa-user"></i> Аккаунт</a></li>
-                            <li><a href="#"><i class="fa fa-lock"></i> Вход</a></li>
+                            <li><a href="secure/login.php"><i class="fa fa-lock"></i> Вход</a></li>
                         </ul>
                     </div>
                 </div>
@@ -82,8 +82,6 @@
                                     <li><a href="../basket.php">Корзина</a></li>
                                 </ul>
                             </li>
-                            <li><a href="#">О магазине</a></li>
-                            <li><a href="#">Контакты</a></li>
                         </ul>
                     </div>
                 </div>

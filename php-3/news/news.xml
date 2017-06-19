@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss>
+  <channel>
+    <title>Новостная лента</title>
+    <link>http://localhost/php-3/news/news.php</link>
+    <item>
+      <title>NEWS 2</title>
+      <link>http://localhost/php-3/news/news.php?id=6</link>
+      <description>SPORT forever</description>
+      <pubYear>Sat, 18 Mar 2017 20:32:40 +0200</pubYear>
+      <category>Спорт</category>
+    </item>
+    <item>
+      <title>News 1</title>
+      <link>http://localhost/php-3/news/news.php?id=5</link>
+      <description>Culture fvjdfhghjdfgjfdhgjfdj</description>
+      <pubYear>Sat, 18 Mar 2017 20:03:01 +0200</pubYear>
+      <category>Культура</category>
+    </item>
+    <item>
+      <title>dfgdfg</title>
+      <link>http://localhost/php-3/news/news.php?id=4</link>
+      <description>fsdfdgfdg</description>
+      <pubYear>Sat, 18 Mar 2017 18:26:10 +0200</pubYear>
+      <category>Политика</category>
+    </item>
+    <item>
+      <title>hdfjefhygeufye</title>
+      <link>http://localhost/php-3/news/news.php?id=2</link>
+      <description>jdchdfuv urferufhue yyyyy</description>
+      <pubYear>Thu, 16 Mar 2017 21:35:42 +0200</pubYear>
+      <category>Культура</category>
+    </item>
+    <item>
+      <title>Atbjhggh</title>
+      <link>http://localhost/php-3/news/news.php?id=1</link>
+      <description>hjfgdshjgfdhjvcgdhcbdhcgdhc</description>
+      <pubYear>Thu, 16 Mar 2017 21:35:19 +0200</pubYear>
+      <category>Политика</category>
+    </item>
+  </channel>
+</rss>
